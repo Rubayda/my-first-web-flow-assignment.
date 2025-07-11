@@ -80,8 +80,8 @@ nav a{
 /* action styles */
 .action{
   display: flex;
-  justify-content: space-around;
-  margin: 100px 40px 0 200px;
+  justify-content: space-between;
+  margin: 100px 0;
 
 }
 
@@ -100,7 +100,52 @@ nav a{
   color: #474747;
 }
 
+/* main styles */
+main{
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
 /* .action-img{
   width: 403px;
   height: 328px;  
 } */
+
+/* users styles */
+.users{
+  background-color:rgba(150, 222, 255, 0.693);
+  max-width: 1150px;
+  max-height: 306px;
+  border-radius: 24px;
+  padding: 50px 80px;
+}
+
+.users-title{
+  font-weight: bold;
+  font-size: 38px;
+  color: #252432;
+  text-align: center;
+  margin: 0 80px;
+  
+}
+
+.users-items{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin: 40px;
+}
+
+.item-title{
+  font-weight: bold;
+  font-size: 80px;
+  color: #4E47FF;
+  margin: 0 80px;
+}
+
+.item-description{
+  font-size: 20px;
+  color: #474747;
+  margin: 0 80px;
+  
+}
