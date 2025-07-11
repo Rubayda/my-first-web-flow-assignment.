@@ -149,3 +149,18 @@ main{
   margin: 0 80px;
   
 }
+
+/* testimonial section */
+
+.testimonials-section h2{
+  font-weight: bold;
+  font-size: 42px;
+  color: #252432;
+  text-align: center;
+  margin: 50px auto;
+}
+
+.testimonial-cards-container{
+  display: flex;
+  justify-content: space-around;
+}
