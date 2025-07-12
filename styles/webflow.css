@@ -296,8 +296,8 @@ main{
 
 /* footer styles */
 .footer{
-  background-color: #FFFFFF;
-  /* max-width: 1440px; */
+  /* background-color: #FFFFFF; */
+  max-width: 1440px;
   margin: auto;
 }
 
@@ -322,8 +322,8 @@ nav ul{
   margin: 0;
   text-align: center;
   justify-items: center;
-  /* padding: 8px 0px 120px 0px;
-  margin-left: 520px; */
+  padding: 8px 0px 120px 0px;
+  margin-left: 350px;
 
 }
 
