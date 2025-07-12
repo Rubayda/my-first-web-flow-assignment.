@@ -11,6 +11,10 @@
   font-style: normal;
 }
 
+/* Body */
+body{
+  background-color: #f5f8ff;
+}
 /* *{
   margin: 0;
   padding: 0;
@@ -25,6 +29,14 @@
   color: #252432;
  }
 
+ .color-secondary{
+  color: #757575;
+ }
+
+ .color-tertiary{
+  color: #b3b3b3;
+ }
+
 .btn-primary{
   background-color: #4E47FF;
   color: #FFFFFF;
@@ -33,9 +45,20 @@
   border-radius: 10px;
   border: none;
   font-size: 20px;
+  cursor: pointer;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
 
 /* header */
+
 .header{
   background-image: url('../Assets/Hero-bg.png');
   background-position: 100%;
@@ -73,7 +96,7 @@ nav a{
   text-align: center;
 }
 
-.button{
+.button-1{
   margin-bottom: 200px;
 }
 
@@ -97,13 +120,14 @@ nav a{
 
 .action-description{
   font-size: 24px;
-  color: #474747;
+  color: #757575;
 }
 
 /* main styles */
 main{
   max-width: 1140px;
   margin: 0 auto;
+
 }
 
 /* .action-img{
@@ -113,7 +137,7 @@ main{
 
 /* users styles */
 .users{
-  background-color:rgba(150, 222, 255, 0.693);
+  background-color: #e5e7ff;
   max-width: 1150px;
   max-height: 306px;
   border-radius: 24px;
@@ -145,12 +169,18 @@ main{
 
 .item-description{
   font-size: 20px;
-  color: #474747;
+  color: #757575;
   margin: 0 80px;
   
 }
 
 /* testimonial section */
+.testimonials-section{
+  max-width: 1140px;
+  margin-top: 150px;
+  /* margin: 0;
+  padding: 0; */
+}
 
 .testimonials-section h2{
   font-weight: bold;
@@ -162,5 +192,104 @@ main{
 
 .testimonial-cards-container{
   display: flex;
+  justify-content: center;
+  gap: 24px;
+  max-width: 1140px;
+  margin-bottom: 150px;
+}
+
+.testimonial-card{
+  gap: 24px;
+  padding: 24px;
+  box-shadow: 0px 5px 50px 0px #F2EDED;
+  border-radius: 14px;
+  background-color: #FFFFFF;
   justify-content: space-around;
+}
+
+/* focus styles */
+.focus{
+  max-width: 1140px;
+  max-height: 696px;
+  border-radius: 14px;
+  background-color: #FFFFFF;
+  margin: 0;
+  justify-items: center;
+
+}
+
+.container{
+  line-height: 20px;
+}
+
+.container-title{
+  font-weight: bold;
+  font-size: 50px;
+  text-align: center;
+  padding-top: 70px;
+}
+
+.container-description{
+  text-align: center;
+
+}
+
+.button-2{
+  justify-content: center;
+  margin: 0 200px 20px 200px;
+}
+
+.image{
+  width: 840px;
+  height: 364px;
+  border-radius: 48px;
+}
+
+/* contact styles */
+.contact{
+  display: flex;
+  margin: 0;
+  padding: 0;
+  /* padding: 71px; */
+  max-width: 1140px;
+  gap: 150px;
+  margin-top: 150px;
+  margin-bottom: 150px;
+  
+}
+
+.contact-form{
+  width: 50%;
+}
+
+.contact-title{
+  font-weight: bold;
+  font-size: 60px;
+  
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  min-height: 64px;
+  max-width: 450px;
+  padding: 8px 20px;
+  margin-bottom: 24px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  display: block;
+  font-size: 20px;
+}
+
+.contact-form label{
+  font-weight: bold;
+  font-size: 18px;
+  /* line-height: 120%; */
+  margin-bottom: 24px;
+}
+
+.contact-form button{
+  padding: 20px 186px;
+  white-space: nowrap;
+
 }
